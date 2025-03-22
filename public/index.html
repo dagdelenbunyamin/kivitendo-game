@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kivitendo Game</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f9fc;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      background: #007396;
+      width: 100%;
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .game-container {
+      margin-top: 2rem;
+      background: white;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+    .game-container img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+    #question {
+      font-size: 1.25rem;
+      margin: 1rem 0;
+      min-height: 60px;
+    }
+    #answers button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      background: #d7e7f0;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    #answers button:hover {
+      background: #bfd9e5;
+    }
+    #score {
+      margin-top: 1.5rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #007396;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>Kivitendo Game</header>
+  <div class="game-container" id="game">
+    <img src="/kivi.svg" alt="Kivi" />
+    <div id="question">Lade Frage...</div>
+    <div id="answers"></div>
+    <div id="score"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script>
+    let punkte = parseInt(localStorage.getItem("kivitendo_score")) || 0;
+    document.getElementById("score").textContent = `Punkte: ${punkte}`;
+
+    function ladeFrage() {
+      fetch('/api/frage')
+        .then(res => res.json())
+        .then(frageObj => {
+          const questionEl = document.getElementById("question");
+          const answersEl = document.getElementById("answers");
+
+          questionEl.textContent = frageObj.frage;
+          answersEl.innerHTML = "";
+
+          gsap.fromTo("#question", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5 });
+
+          frageObj.antworten.forEach(antwort => {
+            const btn = document.createElement("button");
+            btn.textContent = antwort.text;
+            btn.onclick = () => {
+              if (antwort.korrekt) {
+                punkte += 10;
+              }
+              document.getElementById("score").textContent = `Punkte: ${punkte}`;
+              localStorage.setItem("kivitendo_score", punkte);
+              ladeFrage();
+            };
+            answersEl.appendChild(btn);
+            gsap.fromTo(btn, { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4 });
+          });
+        })
+        .catch(err => {
+          document.getElementById("question").textContent = "Fehler beim Laden der Frage 😢";
+          console.error("API-Fehler:", err);
+        });
+    }
+
+    ladeFrage();
+  </script>
+</body>
+</html>

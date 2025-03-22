@@ -1,0 +1,902 @@
+[
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Lieferschein?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsbeleg",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument fÃ¼r den Warenausgang",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Formular fÃ¼r Reklamationen",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie kommentiert man eine Zeile in Perl?",
+    "antworten": [
+      {
+        "text": "// Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "# Kommentar",
+        "korrekt": true
+      },
+      {
+        "text": "-- Kommentar",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht 'cd /home'?",
+    "antworten": [
+      {
+        "text": "Wechselt in das Home-Verzeichnis",
+        "korrekt": true
+      },
+      {
+        "text": "Kopiert Dateien",
+        "korrekt": false
+      },
+      {
+        "text": "LÃ¶scht alle Dateien",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was gibt 'scalar(@array)' zurÃ¼ck?",
+    "antworten": [
+      {
+        "text": "Die LÃ¤nge des Arrays",
+        "korrekt": true
+      },
+      {
+        "text": "Den Inhalt",
+        "korrekt": false
+      },
+      {
+        "text": "Ein neues Array",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht 'cd /home'?",
+    "antworten": [
+      {
+        "text": "Wechselt in das Home-Verzeichnis",
+        "korrekt": true
+      },
+      {
+        "text": "Kopiert Dateien",
+        "korrekt": false
+      },
+      {
+        "text": "LÃ¶scht alle Dateien",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie beginnt ein Hash in Perl?",
+    "antworten": [
+      {
+        "text": "%",
+        "korrekt": true
+      },
+      {
+        "text": "$",
+        "korrekt": false
+      },
+      {
+        "text": "&",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was gibt 'scalar(@array)' zurÃ¼ck?",
+    "antworten": [
+      {
+        "text": "Die LÃ¤nge des Arrays",
+        "korrekt": true
+      },
+      {
+        "text": "Den Inhalt",
+        "korrekt": false
+      },
+      {
+        "text": "Ein neues Array",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht 'cd /home'?",
+    "antworten": [
+      {
+        "text": "Wechselt in das Home-Verzeichnis",
+        "korrekt": true
+      },
+      {
+        "text": "Kopiert Dateien",
+        "korrekt": false
+      },
+      {
+        "text": "LÃ¶scht alle Dateien",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Wie beendet man einen Prozess?",
+    "antworten": [
+      {
+        "text": "kill [PID]",
+        "korrekt": true
+      },
+      {
+        "text": "exit",
+        "korrekt": false
+      },
+      {
+        "text": "shutdown",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was ist 'use strict;' in Perl?",
+    "antworten": [
+      {
+        "text": "Ein Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "Eine Fehlermeldung",
+        "korrekt": false
+      },
+      {
+        "text": "Eine strikte Syntaxregel",
+        "korrekt": true
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht der Befehl 'chmod +x datei.sh'?",
+    "antworten": [
+      {
+        "text": "Setzt das Passwort zurÃ¼ck",
+        "korrekt": false
+      },
+      {
+        "text": "Macht die Datei ausfÃ¼hrbar",
+        "korrekt": true
+      },
+      {
+        "text": "LÃ¶scht die Datei",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was gibt 'scalar(@array)' zurÃ¼ck?",
+    "antworten": [
+      {
+        "text": "Die LÃ¤nge des Arrays",
+        "korrekt": true
+      },
+      {
+        "text": "Den Inhalt",
+        "korrekt": false
+      },
+      {
+        "text": "Ein neues Array",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was ist 'use strict;' in Perl?",
+    "antworten": [
+      {
+        "text": "Ein Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "Eine Fehlermeldung",
+        "korrekt": false
+      },
+      {
+        "text": "Eine strikte Syntaxregel",
+        "korrekt": true
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was gehÃ¶rt zu den Aufgaben der Lagerverwaltung?",
+    "antworten": [
+      {
+        "text": "Wareneingang und -ausgang",
+        "korrekt": true
+      },
+      {
+        "text": "KundengesprÃ¤che fÃ¼hren",
+        "korrekt": false
+      },
+      {
+        "text": "Lohnabrechnung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "WofÃ¼r steht 'ls'?",
+    "antworten": [
+      {
+        "text": "Dateien lÃ¶schen",
+        "korrekt": false
+      },
+      {
+        "text": "Verzeichnis auflisten",
+        "korrekt": true
+      },
+      {
+        "text": "Datei kopieren",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was bedeutet Inventur?",
+    "antworten": [
+      {
+        "text": "Bestandsermittlung",
+        "korrekt": true
+      },
+      {
+        "text": "Neubestellung",
+        "korrekt": false
+      },
+      {
+        "text": "Lieferung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie beginnt ein Hash in Perl?",
+    "antworten": [
+      {
+        "text": "%",
+        "korrekt": true
+      },
+      {
+        "text": "$",
+        "korrekt": false
+      },
+      {
+        "text": "&",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was bedeutet 'sudo'?",
+    "antworten": [
+      {
+        "text": "Normale Benutzerrechte",
+        "korrekt": false
+      },
+      {
+        "text": "Root-Rechte verwenden",
+        "korrekt": true
+      },
+      {
+        "text": "Benutzer wechseln",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Lieferschein?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsbeleg",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument fÃ¼r den Warenausgang",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Formular fÃ¼r Reklamationen",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "WofÃ¼r steht 'ls'?",
+    "antworten": [
+      {
+        "text": "Dateien lÃ¶schen",
+        "korrekt": false
+      },
+      {
+        "text": "Verzeichnis auflisten",
+        "korrekt": true
+      },
+      {
+        "text": "Datei kopieren",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "WofÃ¼r steht 'ls'?",
+    "antworten": [
+      {
+        "text": "Dateien lÃ¶schen",
+        "korrekt": false
+      },
+      {
+        "text": "Verzeichnis auflisten",
+        "korrekt": true
+      },
+      {
+        "text": "Datei kopieren",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Lieferschein?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsbeleg",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument fÃ¼r den Warenausgang",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Formular fÃ¼r Reklamationen",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist eine Rechnung?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsversprechen",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Verkaufsdokument mit Preisen",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Lieferschein",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie kommentiert man eine Zeile in Perl?",
+    "antworten": [
+      {
+        "text": "// Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "# Kommentar",
+        "korrekt": true
+      },
+      {
+        "text": "-- Kommentar",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was bedeutet 'sudo'?",
+    "antworten": [
+      {
+        "text": "Normale Benutzerrechte",
+        "korrekt": false
+      },
+      {
+        "text": "Root-Rechte verwenden",
+        "korrekt": true
+      },
+      {
+        "text": "Benutzer wechseln",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was gehÃ¶rt zu den Aufgaben der Lagerverwaltung?",
+    "antworten": [
+      {
+        "text": "Wareneingang und -ausgang",
+        "korrekt": true
+      },
+      {
+        "text": "KundengesprÃ¤che fÃ¼hren",
+        "korrekt": false
+      },
+      {
+        "text": "Lohnabrechnung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was bedeutet 'sudo'?",
+    "antworten": [
+      {
+        "text": "Normale Benutzerrechte",
+        "korrekt": false
+      },
+      {
+        "text": "Root-Rechte verwenden",
+        "korrekt": true
+      },
+      {
+        "text": "Benutzer wechseln",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Wie beendet man einen Prozess?",
+    "antworten": [
+      {
+        "text": "kill [PID]",
+        "korrekt": true
+      },
+      {
+        "text": "exit",
+        "korrekt": false
+      },
+      {
+        "text": "shutdown",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist eine Rechnung?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsversprechen",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Verkaufsdokument mit Preisen",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Lieferschein",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie beginnt ein Hash in Perl?",
+    "antworten": [
+      {
+        "text": "%",
+        "korrekt": true
+      },
+      {
+        "text": "$",
+        "korrekt": false
+      },
+      {
+        "text": "&",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie deklariert man ein Array in Perl?",
+    "antworten": [
+      {
+        "text": "my @array = ();",
+        "korrekt": true
+      },
+      {
+        "text": "array[];",
+        "korrekt": false
+      },
+      {
+        "text": "List array = []",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie beginnt ein Hash in Perl?",
+    "antworten": [
+      {
+        "text": "%",
+        "korrekt": true
+      },
+      {
+        "text": "$",
+        "korrekt": false
+      },
+      {
+        "text": "&",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht der Befehl 'chmod +x datei.sh'?",
+    "antworten": [
+      {
+        "text": "Setzt das Passwort zurÃ¼ck",
+        "korrekt": false
+      },
+      {
+        "text": "Macht die Datei ausfÃ¼hrbar",
+        "korrekt": true
+      },
+      {
+        "text": "LÃ¶scht die Datei",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie deklariert man ein Array in Perl?",
+    "antworten": [
+      {
+        "text": "my @array = ();",
+        "korrekt": true
+      },
+      {
+        "text": "array[];",
+        "korrekt": false
+      },
+      {
+        "text": "List array = []",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht 'cd /home'?",
+    "antworten": [
+      {
+        "text": "Wechselt in das Home-Verzeichnis",
+        "korrekt": true
+      },
+      {
+        "text": "Kopiert Dateien",
+        "korrekt": false
+      },
+      {
+        "text": "LÃ¶scht alle Dateien",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was gibt 'scalar(@array)' zurÃ¼ck?",
+    "antworten": [
+      {
+        "text": "Die LÃ¤nge des Arrays",
+        "korrekt": true
+      },
+      {
+        "text": "Den Inhalt",
+        "korrekt": false
+      },
+      {
+        "text": "Ein neues Array",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was bedeutet Inventur?",
+    "antworten": [
+      {
+        "text": "Bestandsermittlung",
+        "korrekt": true
+      },
+      {
+        "text": "Neubestellung",
+        "korrekt": false
+      },
+      {
+        "text": "Lieferung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was bedeutet Inventur?",
+    "antworten": [
+      {
+        "text": "Bestandsermittlung",
+        "korrekt": true
+      },
+      {
+        "text": "Neubestellung",
+        "korrekt": false
+      },
+      {
+        "text": "Lieferung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Was macht der Befehl 'chmod +x datei.sh'?",
+    "antworten": [
+      {
+        "text": "Setzt das Passwort zurÃ¼ck",
+        "korrekt": false
+      },
+      {
+        "text": "Macht die Datei ausfÃ¼hrbar",
+        "korrekt": true
+      },
+      {
+        "text": "LÃ¶scht die Datei",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "Wie beendet man einen Prozess?",
+    "antworten": [
+      {
+        "text": "kill [PID]",
+        "korrekt": true
+      },
+      {
+        "text": "exit",
+        "korrekt": false
+      },
+      {
+        "text": "shutdown",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie deklariert man ein Array in Perl?",
+    "antworten": [
+      {
+        "text": "my @array = ();",
+        "korrekt": true
+      },
+      {
+        "text": "array[];",
+        "korrekt": false
+      },
+      {
+        "text": "List array = []",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Linux",
+    "frage": "WofÃ¼r steht 'ls'?",
+    "antworten": [
+      {
+        "text": "Dateien lÃ¶schen",
+        "korrekt": false
+      },
+      {
+        "text": "Verzeichnis auflisten",
+        "korrekt": true
+      },
+      {
+        "text": "Datei kopieren",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was gehÃ¶rt zu den Aufgaben der Lagerverwaltung?",
+    "antworten": [
+      {
+        "text": "Wareneingang und -ausgang",
+        "korrekt": true
+      },
+      {
+        "text": "KundengesprÃ¤che fÃ¼hren",
+        "korrekt": false
+      },
+      {
+        "text": "Lohnabrechnung",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist eine Rechnung?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsversprechen",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Verkaufsdokument mit Preisen",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Lieferschein",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Lieferschein?",
+    "antworten": [
+      {
+        "text": "Ein Zahlungsbeleg",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument fÃ¼r den Warenausgang",
+        "korrekt": true
+      },
+      {
+        "text": "Ein Formular fÃ¼r Reklamationen",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Was ist 'use strict;' in Perl?",
+    "antworten": [
+      {
+        "text": "Ein Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "Eine Fehlermeldung",
+        "korrekt": false
+      },
+      {
+        "text": "Eine strikte Syntaxregel",
+        "korrekt": true
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Beleg in der Warenwirtschaft?",
+    "antworten": [
+      {
+        "text": "Ein Ausdruck vom Drucker",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument zur Buchung",
+        "korrekt": true
+      },
+      {
+        "text": "Eine Rechnungskopie",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Beleg in der Warenwirtschaft?",
+    "antworten": [
+      {
+        "text": "Ein Ausdruck vom Drucker",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument zur Buchung",
+        "korrekt": true
+      },
+      {
+        "text": "Eine Rechnungskopie",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "ERP",
+    "frage": "Was ist ein Beleg in der Warenwirtschaft?",
+    "antworten": [
+      {
+        "text": "Ein Ausdruck vom Drucker",
+        "korrekt": false
+      },
+      {
+        "text": "Ein Dokument zur Buchung",
+        "korrekt": true
+      },
+      {
+        "text": "Eine Rechnungskopie",
+        "korrekt": false
+      }
+    ]
+  },
+  {
+    "kategorie": "Perl",
+    "frage": "Wie kommentiert man eine Zeile in Perl?",
+    "antworten": [
+      {
+        "text": "// Kommentar",
+        "korrekt": false
+      },
+      {
+        "text": "# Kommentar",
+        "korrekt": true
+      },
+      {
+        "text": "-- Kommentar",
+        "korrekt": false
+      }
+    ]
+  }
+]
