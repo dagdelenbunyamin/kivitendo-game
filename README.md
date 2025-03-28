@@ -45,7 +45,7 @@ Kivitendo-Game/
 ### 📂 Verzeichnis:
 
 ```bash
-cd ~/Kivitendo-Game/Kivitendo::Game
+cd ~/Kivitendo-Game
 ```
 
 ## 🚀 Projektstart (lokal)
