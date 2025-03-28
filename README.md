@@ -41,3 +41,21 @@ Kivitendo-Game/
 - Highscore-Tabelle  
 - Admin-Panel zum Verwalten der Fragen  
 - Kategorie-Auswahl, Timer & Sounds
+
+### 📂 Verzeichnis:
+
+```bash
+cd ~/Kivitendo-Game/Kivitendo::Game
+```
+
+## 🚀 Projektstart (lokal)
+- Starten Sie das Game mit dem Befehl: 
+```
+plackup bin/app.psgi
+```
+
+## 🖥️ Browser-Zugriff:
+```
+http://localhost:5000/
+```
+
